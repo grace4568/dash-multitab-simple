@@ -28,9 +28,9 @@ app.layout = html.Div([
     html.H1(myheading1),
     dcc.Tabs(id="tabs-example", value='tab-1-example',
             children=[
-                dcc.Tab(label='Tab One', value='tab-1-example'),
-                dcc.Tab(label='Tab Two', value='tab-2-example'),
-                dcc.Tab(label='Tab Three', value='tab-3-example'),
+                dcc.Tab(label='Breakfast', value='tab-1-example'),
+                dcc.Tab(label='Lunch', value='tab-2-example'),
+                dcc.Tab(label='Dinner', value='tab-3-example'),
     ]),
     html.Div([
         html.Div(id='tabs-content-example'),
